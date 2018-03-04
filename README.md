@@ -10,9 +10,17 @@ Laravel Countries is a bundle for Laravel, providing Almost ISO 3166_2, 3166_3, 
 
 ## Installation
 
-Add `webpatser/laravel-countries` to `composer.json`.
+Add `s4562102/laravel-countries` to `composer.json`.
 
-    "webpatser/laravel-countries": "dev-master"
+    "require": {
+            "s4562102/laravel-countries": "dev-master"
+        },
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/s4562102/laravel-countries"
+        }
+     ]
     
 Run `composer update` to pull down the latest version of Country List.
 
